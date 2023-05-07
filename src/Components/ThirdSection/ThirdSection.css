@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ThirdSectionContainer{
+    max-width: 100%;
+}
+
+.ThirdSectionContent{
+    width: 100%;
+}
+.textContent{
+    float: left;
+}
+.ThirdSectionContent h3{
+    height: 59px;
+    width: 467px;
+    left: 81px;
+    top: 1253px;
+    font-family: Nunito;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ThirdSectionContent p {
+    height: 96px;
+    width: 583px;
+    left: 81px;
+    top: 1334px;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ThirdSectionContent  li {
+    height: 32px;
+    width: 374px;
+    left: 134px;
+    top: 1456px;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+.ThirdSectionContent .flank-right{
+    float: right;
+}

@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+    margin-top: 40px;
+    padding-left: 105px;
+    padding-right: 195px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rgba(30, 30, 30, 1);
+}
+
+.text-part-with-img h1 {
+    margin-top: 200px;
+    margin-left: 120px;
+    height: 118px;
+    width: 620px;
+    font-family: Nunito;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 64px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    position: absolute;
+}
+
+.text-part-with-img p {
+    height: 96px;
+    width: 437px;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 120px;
+    margin-top: 350px;
+    float: left;
+}
+.GetInTouch {
+    height: 44px;
+    width: 157px;
+    border-radius: 5px;
+    background: #FACA10;
+    box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+    border: none;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.text-part-with-img button {
+    margin-top: 20px;
+    margin-left: 120px;
+    float: left;
+}
+
+.text-part-with-img {
+    position: relative;
+}
+
+.text-part-with-img img {
+    float: right;
+    border-radius: 5%;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.absolute-img {
+    position: absolute;
+}

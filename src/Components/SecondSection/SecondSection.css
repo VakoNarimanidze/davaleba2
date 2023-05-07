@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.SecondSection h2 {
+    margin-top: 400px;
+    margin-left: 700px;
+    height: 59px;
+    width: 262px;
+    font-family: Nunito;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+}
+
+.slider-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 1200px;
+    position: relative;
+    margin-top: 400px;
+}
+
+/* .wrapper i {
+    top: 50%;
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.wrapper i:first-child {
+    left: -113px;
+}
+
+.wrapper i:last-child {
+    right: -193px;
+} */
+
+.wrapper .carousel {
+    /* white-space: nowrap; */
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.carousel img {
+    object-fit: cover;
+    padding-left: 144px;
+
+}
+
+.carousel img :first-child {
+    margin-left: 0px;
+}
