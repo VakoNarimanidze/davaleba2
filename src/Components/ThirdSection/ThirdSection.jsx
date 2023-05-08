@@ -1,4 +1,7 @@
 import questionMark from '../../Components/images/question-mark.png'
+import ThirdSectionImg from '../../Components/images/thirdsection-img.png'
+import './ThirdSection.css'
+import ThirdSectionImg2 from '../../Components/images/thirdsection-img2.png'
 
 const P = [
     {
@@ -29,8 +32,11 @@ const P = [
 
 export function Paragraph(props) {
     return (
-        <p>{props.title}</p>,
-        <img src={props.questionMark} alt="" />
+        <dir>
+            <img src={props.questionMark} alt="" />
+            <p>{props.title}</p>,
+        </dir>
+        
     )
 }
 
@@ -39,8 +45,14 @@ export default function ThirdSection() {
     return (
         <div className="ThirdSectionContainer">
             <div className="ThirdSectionContent">
-                <h3>Frustration of Clients</h3>
-                {P.map((item) => ( <Paragraph title={item.title} questionMark={item.img} />))}
+                <div className="textContent">
+                    <h3>Frustration of Clients</h3>
+                    <h5>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</h5>
+                {P.map((item) => (<Paragraph title={item.title} questionMark={item.img} />))}
+                </div>
+                <img className='flank-right' src={ThirdSectionImg} alt="" />
+                <img className='flank-right2' src={ThirdSectionImg2} alt="" />
+                
                  
             </div>
         </div>

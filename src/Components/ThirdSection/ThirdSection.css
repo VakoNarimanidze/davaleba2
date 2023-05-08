@@ -13,6 +13,7 @@
 }
 .textContent{
     float: left;
+    left: 50%;
 }
 .ThirdSectionContent h3{
     height: 59px;
@@ -22,11 +23,9 @@
     font-family: Nunito;
     font-size: 44px;
     font-weight: 900;
-    line-height: 59px;
-    letter-spacing: 0.02em;
-    text-align: left;
+    margin: 300px 0 40px 100px ;
 }
-.ThirdSectionContent p {
+.ThirdSectionContent h5 {
     height: 96px;
     width: 583px;
     left: 81px;
@@ -37,19 +36,26 @@
     line-height: 32px;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-left: 100px;
+    margin-bottom: 30px;
 }
-.ThirdSectionContent  li {
+.ThirdSectionContent  p {
     height: 32px;
     width: 374px;
-    left: 134px;
-    top: 1456px;
     font-family: Lora;
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
     letter-spacing: 0.02em;
     text-align: left;
+    display: inline-block;
+    vertical-align:super;
+    margin-left: 10px;
 }
-.ThirdSectionContent .flank-right{
-    float: right;
+.flank-right{
+    margin-top: 300px;
+    right: 50%;
+}
+.flank-right2{
+    right: 50%;
 }

@@ -53,10 +53,10 @@
 
 .carousel img {
     object-fit: cover;
-    padding-left: 144px;
+    padding-left: 150px;
 
 }
 
 .carousel img :first-child {
-    margin-left: 0px;
+    padding-left: 0px;
 }
