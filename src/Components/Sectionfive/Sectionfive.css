@@ -1,0 +1,111 @@
+.Section5-container {
+ height: 130vh;
+ margin-top: 138vh;
+ background-color: rgba(242, 242, 242, 1);
+
+}
+.Section5-title {
+text-align: center;
+padding: 80px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+}
+.Section5-text {
+margin: auto;
+width: 600px;
+font-family: 'Lora';
+font-style: normal;
+font-size: 18px;
+}
+.button {
+width: 157px;
+height: 48px;
+font-weight: bold;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+  
+.button--white {
+background-color: white;
+color:rgba(196, 196, 196, 1);
+}
+  
+.button--yellow {
+background-color: rgba(250, 202, 16, 1);
+color: rgba(249, 242, 242, 0.929);
+}
+  
+.button-group {
+display: flex;
+justify-content: space-evenly;
+margin-top: 2rem;
+}
+.Branding-box {
+width: 1280px;
+height: 413px;
+background: #FFFFFF;
+border-radius: 30px;
+margin: 0 auto;
+margin-top: 100px;
+}
+.Branding-content {
+display: flex;
+justify-content: space-evenly;
+}
+.branding-photo{
+margin-top: 70px;
+width: 550px;
+height: 280px;
+background-color: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+border-radius: 25px;
+}
+.content-photo {
+ margin-top: 10px;
+ border-radius: 25px;
+}
+.branding-description {
+width: 405px;
+height: 100px;
+margin-top: 70px;
+}
+.yellow-ball {
+width: 56px;
+height: 56px;
+background: #FACA10;
+box-shadow: inset 0px 0px 1px rgba(0, 0, 0, 0.2);
+border-radius: 50%;
+}
+.logo-vector {
+margin-top: 13px;
+}
+.Branding-content-title {
+padding-right: 125px;
+font-family: 'Nunito';
+font-style: normal;
+font-size: 30px;
+margin-top: -40px;
+    
+}
+.Branding-content-text {
+ margin-top: 30px;
+margin-left: 40px;
+font-family: 'Lora';
+font-style: normal;
+font-size: 18px;
+color: #1E1E1E;
+letter-spacing: 0.02em;
+
+}
+.Breanding-button { 
+margin-top: 20px;
+margin-right: 140px; 
+width: 157px;
+height: 48px;
+background: #1E1E1E;
+border-radius: 5px;
+color: #FFFFFF;
+}
