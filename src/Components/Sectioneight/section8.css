@@ -1,0 +1,51 @@
+.testimonials-container{
+    max-width: 1200px;
+    height: 100vh;
+    margin-top: 50px;
+    margin: 0 auto;
+    
+}
+
+.title-testimonials{
+    font-size: 44px;
+}
+.title-testimonials::after{
+    content: "";
+    background-color: yellow;
+    position: absolute;
+    display: block;
+    height: 10px;
+    width: 280px;
+    left: 1050px;
+    
+   
+
+}
+.Profile-wrapper{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.profile{
+    width: 200px;
+    
+}
+
+.lorem{
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 25px;
+    font-family: "lora";
+}
+
+@font-face {
+    font-family:'lora';
+    src: url(./fonts/Lora-Italic-VariableFont_wght.ttf);
+  }
+
+  .jenny{
+    font-size: 25px;
+    margin-top: 50px;
+  }
