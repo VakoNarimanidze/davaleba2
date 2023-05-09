@@ -1,0 +1,82 @@
+.Sectionsix-container {
+    height: 100vh;
+    
+}
+.Section6-title-text{
+width: 864px;
+height: 99px;
+margin-left: 350px;
+
+}
+.Main-title {
+margin-top: 100px;
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+}
+.main-text {
+margin-top: 70px;
+font-family: 'Lora';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+}
+.main-content {
+margin-top: 200px;
+display: flex;
+justify-content: space-evenly;
+}
+.photo-shadow{
+width: 497px;
+height: 441px;
+background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 25px;
+}
+.main-photo{ 
+border-radius: 20%;
+}
+.Yellow-ball {
+margin-left: -50px;
+margin-top: -90px;
+width: 139px;
+height: 139px;
+background: #FACA10;
+opacity: 0.3;
+border-radius: 50%;
+}
+.content-text-title {
+margin-top: 100px;
+width: 547px;
+height: 238px;
+}
+.content-title {
+margin-right: 120px;
+margin-top: -70px;
+font-family: 'Nunito';
+font-style: normal;
+color: #1E1E1E;
+
+}
+.content-text {
+margin-left: 50px;
+margin-top: 30px;
+width: 330px;
+height: 138px;
+font-family: 'Lora';
+font-style: normal;
+color: #1E1E1E;
+
+}
+.yellow-button {
+margin-top: 80px;
+margin-right: 280px;
+width: 157px;
+height: 48px;
+background: #FACA10;
+border-radius: 5px;
+color: #FFFFFF;
+border-color: #FACA10;
+}
+
