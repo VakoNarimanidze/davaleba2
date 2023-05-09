@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Poppins&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -24,15 +28,25 @@ nav {
     padding: 10px 15px 10px 15px;
 }
 
+    @font-face {
+        font-family:nunito;
+        src: url(/public/Nunito-VariableFont_wght.ttf);
+    }
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 20px;
-    text-decoration: none;
+    text-shadow: 0 5px #FACA10;
+    font-family:nunito;
     font-weight: 700;
     color: rgba(30, 30, 30, 1);
+    cursor: pointer;
 }
 
+nav ul li:hover{
+    text-decoration-color: #FACA10;
+}
 .text-part-with-img h1 {
     margin-top: 200px;
     margin-left: 120px;
@@ -74,6 +88,7 @@ nav ul li {
     letter-spacing: 0.05em;
     text-align: center;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .text-part-with-img button {

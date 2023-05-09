@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.ForthSectionContainer{
+    max-width: 100%;
+}
+.ForthSectionContent{
+    width: 100%;
+}
+.ForthSectionFloatLeft{
+    float: left;
+}
+.ForthSectionFloatRight{
+    float: right;
+}
+
+.boxes{
+    height: 352px;
+    width: 285px;
+    left: 451px;
+    top: 2050px;
+    border-radius: 30px;
+    box-shadow: 0 0 5px rgb(212, 255, 0);
+    
+}
+.boxes h4{
+    height: 41px;
+    width: 290px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0.05em;
+    text-align:center;
+    color: rgba(30, 30, 30, 1);;
+    /* padding-left: 30px; */
+}
+.boxes img{
+    padding-top: 50px;
+}
+
+.boxes p{
+    height: 64px;
+    width: 240px;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-left: 30px;
+}
+.ParentOfBoxes{
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.ParentOfBoxes:nth-child(odd){
+    margin-top: 100px;
+}
+.ParentOfBoxes:last-child{
+    display: block;
+    margin-top: 0;
+}
+
+.ParentOfBoxes:first-child{
+    margin-top: 200px;
+}
+.ForthSectionFloatRight h3{
+    height: 118px;
+    width: 442px;
+    font-family: Nunito;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 200px;
+}
+.ForthSectionFloatRight p{
+    height: 193px;
+    width: 464px;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.08em;
+    text-align: left;
+    margin-top: 50px;
+}
+.ForthSectionFloatRight button{
+    height: 48px;
+    width: 157px;
+    border-radius: 5px;
+    background: rgba(250, 202, 16, 1);
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align:center;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    margin-right: 330px;
+    margin-top: 50px;
+}
