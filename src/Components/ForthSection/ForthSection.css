@@ -15,6 +15,9 @@
 .ForthSectionFloatRight{
     float: right;
 }
+.ForthSectionFloatRight::after{
+    display: none;
+}
 
 .boxes{
     height: 352px;
